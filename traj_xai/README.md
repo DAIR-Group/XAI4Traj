@@ -23,7 +23,7 @@ A Python package for applying explainable AI (XAI) techniques to trajectory data
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/traj-xai.git
+git clone https://github.com/buidangphuc/XAI4Traj.git
 cd traj-xai
 
 # Install the package
@@ -72,13 +72,9 @@ If you use this package in your research, please cite:
 
 ```
 @software{traj_xai,
-  author = {Your Name},
+  author = {Le Xuan Tung, Bui Dang Phuc},
   title = {Traj-XAI: Explainable AI for Trajectory Data},
-  url = {https://github.com/yourusername/traj-xai},
-  year = {2023},
+  url = {https://github.com/buidangphuc/XAI4Traj.git},
+  year = {2025},
 }
 ```
-
-## License
-
-MIT
