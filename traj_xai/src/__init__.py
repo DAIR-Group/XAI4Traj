@@ -4,8 +4,6 @@ traj-xai: A package for explainable AI on trajectory data.
 
 from .evaluation import ap_at_k
 from .experiment import experiment, run_experiments
-from .gru_model import GRUModel
-from .models import TransformerModel
 from .perturbation import (
     gaussian_perturbation,
     rotation_perturbation,
@@ -17,12 +15,17 @@ from .segmentation import (
     rdp_segmentation,
     sliding_window_segmentation,
 )
-from .simple_gru_model import SimpleGRUModel
-from .simple_transformer_model import SimpleTransformerModel
 from .utils import check_ram_and_log, generate_unique_name, save_result_row
 from .xai import TrajectoryManipulator
-from .trajformer_model import TrajFormerModel
-
+from pactus.models import (
+    RandomForestModel,
+    KNeighborsModel,
+)
+from .models import (
+    SimpleGRUModel,
+    SimpleTransformerModel,
+    TrajFormerModel,
+)
 __all__ = [
     "rdp_segmentation",
     "random_segmentation",
@@ -38,8 +41,8 @@ __all__ = [
     "save_result_row",
     "check_ram_and_log",
     "generate_unique_name",
-    "TransformerModel",
-    "GRUModel",
+    "RandomForestModel",
+    "KNeighborsModel",
     "SimpleGRUModel",
     "SimpleTransformerModel",
     "TrajFormerModel",
