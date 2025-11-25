@@ -71,7 +71,7 @@ See `requirements.txt` for detailed dependencies.
 If you use this package in your research, please cite:
 
 ```bibtex
-@article{tung2025towards,
+@article{XAI4Traj,
   title={Towards explainable trajectory classification: A segment-based perturbation approach},
   author={Tung, Le Xuan and Phuc, Bui Dang and Le Duy, Vo Nguyen},
   journal={Neurocomputing},
