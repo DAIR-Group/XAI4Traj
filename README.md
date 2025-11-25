@@ -1,6 +1,6 @@
-# Traj-XAI: Explainable AI for Trajectory Data
+# XAI4Traj: Explainable AI for Trajectory Classification
 
-A Python package for applying explainable AI (XAI) techniques to trajectory data. This package provides tools for segmenting trajectories, applying perturbations, and generating explanations for black box models.
+A Python package for applying explainable AI (XAI) techniques to trajectory classification. This package implements a segment-based perturbation approach for explaining trajectory classifications from black box models.
 
 ## Features
 
@@ -23,8 +23,8 @@ A Python package for applying explainable AI (XAI) techniques to trajectory data
 
 ```bash
 # Clone the repository
-git clone https://github.com/buidangphuc/XAI4Traj.git
-cd traj-xai
+git clone https://github.com/DAIR-Group/XAI4Traj.git
+cd traj_xai
 
 # Install the package
 pip install -e .
@@ -70,11 +70,14 @@ See `requirements.txt` for detailed dependencies.
 
 If you use this package in your research, please cite:
 
-```
-@software{traj_xai,
-  author = {Le Xuan Tung, Bui Dang Phuc},
-  title = {Traj-XAI: Explainable AI for Trajectory Data},
-  url = {https://github.com/buidangphuc/XAI4Traj.git},
-  year = {2025},
+```bibtex
+@article{tung2025towards,
+  title={Towards explainable trajectory classification: A segment-based perturbation approach},
+  author={Tung, Le Xuan and Phuc, Bui Dang and Le Duy, Vo Nguyen},
+  journal={Neurocomputing},
+  volume={658},
+  pages={131691},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
